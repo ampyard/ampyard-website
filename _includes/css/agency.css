@@ -866,7 +866,7 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
-img .logo{
+.logo{
 height: 60px !important;
 margin-top: 10px;
 }
