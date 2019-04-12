@@ -2,9 +2,11 @@
 color:
 # old primary: fed136
   primary: 3498db
-  secondary: fec503   
+  secondary: fec503  
+  tertiary: d6d6d6
   secondary-dark: 333
   muted: 777
+
 
 # Font Families
 font:
