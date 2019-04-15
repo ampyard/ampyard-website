@@ -2,14 +2,14 @@ url: https://www.ampyard.com
 baseurl: /
 
 # Site settings
-title: Ampyard
-# email: your-email@domain.com
-description: "Welcome to Ampyard, get in touch us for Agile | Technology | DevOps Consulting"
+title: "Ampyard - Agile | Technology | DevOps Consulting"
+email: info@ampyard.com
+description: "Welcome to Ampyard, get in touch for Agile | Technology | DevOps Consulting"
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Kamal Raj Sekar
   pic: 1
   position: Lead Designer
   social:
@@ -20,7 +20,7 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Vivek Ganesan
   pic: 2
   position: Lead Marketer
   social:
@@ -29,17 +29,6 @@ people:
     - title: facebook
       url: #
     - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -57,8 +46,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Ampyard Private Limited, BHIVE Workspace, No.703, 22nd Main Road, HSR Layout, Sector 2
+  - line: Bengaluru, Karnataka, 560102
 
 # Build settings
 markdown: kramdown
