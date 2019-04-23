@@ -872,3 +872,8 @@ body {
 height: 50px !important;
 margin-top: 5px;
 }
+
+.img-client{
+    width: auto;
+    height: 70px;
+}
