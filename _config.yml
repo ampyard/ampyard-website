@@ -1,5 +1,4 @@
 url: https://www.ampyard.com
-baseurl: /
 
 # Site settings
 title: "Ampyard"
@@ -12,11 +11,11 @@ people:
 - name: Kamal Raj Sekar
   pic: 1
   position: Lead Technology Consultant
-  
+
 - name: Vivek Ganesan
   pic: 2
   position: Agile / DevOps Consultant
-  
+
 
 # Postal address (add as many lines as necessary)
 address:
