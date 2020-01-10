@@ -2,9 +2,9 @@
 color:
 # old primary: fed136
   primary: 3498db
- # old secondary: fec503 
+ # old secondary: fec503
   secondary: 3498db
-  tertiary: 939393
+  tertiary: b5bebf
   secondary-dark: 333
   muted: 777
 
