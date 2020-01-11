@@ -10,6 +10,10 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+.ui.card{
+  margin-bottom: 15px !important;
+}
+
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
@@ -127,6 +131,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
+    margin-top: 10px;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -259,6 +264,9 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #{{ site.data.template.color.tertiary }};
+        -webkit-box-shadow: 0 8px 6px -6px #999;
+        -moz-box-shadow: 0 8px 6px -6px #999;
+        box-shadow: 0 8px 6px -6px #999;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
