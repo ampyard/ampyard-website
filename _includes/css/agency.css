@@ -12,6 +12,7 @@ body {
 
 .ui.card{
   margin-bottom: 15px !important;
+  text-align: left;
 }
 
 .text-muted {
