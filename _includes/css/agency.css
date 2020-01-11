@@ -240,7 +240,23 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+nav{
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
 @media(min-width:768px) {
+
+    nav{
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+    .navbar-default .navbar-collapse {
+        border-color: rgba(255,255,255,.02);
+    }
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -310,9 +326,15 @@ header .intro-text .intro-heading {
     line-height: 35px;
 }
 
+
 @media(min-width:768px) {
+    header{
+      background-image: url('{{ site.baseurl }}/img/pencils.jpg');
+    }
+
+
     header .intro-text {
-        padding-top: 350px;
+        padding-top: 200px;
         padding-bottom: 200px;
     }
 
@@ -479,7 +501,7 @@ section h3.section-subheading {
     float: right;
     position: relative;
     width: 100%;
-    padding: 20px 20px 0 100px;
+    padding: 0px 20px 0 100px;
     text-align: left;
 }
 
@@ -519,7 +541,7 @@ section h3.section-subheading {
 
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
-    padding: 20px 20px 0 100px;
+    padding: 0px 20px 0 100px;
     text-align: left;
 }
 
@@ -568,7 +590,7 @@ section h3.section-subheading {
     .timeline>li .timeline-panel {
         float: left;
         width: 41%;
-        padding: 20px 20px 20px 30px;
+        padding: 0px 20px 20px 30px;
         text-align: right;
     }
 
@@ -587,7 +609,7 @@ section h3.section-subheading {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
-        padding: 20px 30px 20px 20px;
+        padding: 0px 30px 20px 20px;
         text-align: left;
     }
 }
@@ -598,7 +620,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
-        padding: 20px 20px 20px;
+        padding: 0px 20px 20px;
     }
 
     .timeline>li .timeline-image {
@@ -614,7 +636,7 @@ section h3.section-subheading {
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 20px 20px 20px;
+        padding: 0px 20px 20px;
     }
 }
 
@@ -624,7 +646,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
-        padding: 20px 20px 20px 100px;
+        padding: 0px 20px 20px 100px;
     }
 
     .timeline>li .timeline-image {
@@ -638,7 +660,7 @@ section h3.section-subheading {
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 20px 100px 20px 20px;
+        padding: 0px 100px 20px 20px;
     }
 }
 
