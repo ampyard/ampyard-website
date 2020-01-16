@@ -925,3 +925,8 @@ margin-top: 5px;
       margin-bottom: 13px;
   }
 }
+
+.fa-stack:hover{
+  color: black;
+  cursor: pointer;
+}
