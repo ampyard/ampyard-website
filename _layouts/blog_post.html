@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+
+<body id="page-top" class="index">
+  {% include page_navigation.html %}
+
+  <section id="header">
+    <div class="container">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <p class="article-post"><a href="/blog.html">Ampyard Blog</a> / <a href="{{page.url}}">{{page.title}}</a></p>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+    <div class="container">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <h2 class="section-heading">{{page.title}}</h2>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+    <div class="container">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <p class="article-post"><i class="fa fa-calendar"></i> Posted by <a href="mailto:{{page.author-email}}">{{page.author}}</a> on {{ page.date | date_to_long_string }}</p>
+        <p>
+          {% for cat in page.categories %}
+            <span class="badge badge-light">{{ cat | xml_escape }}</span>
+          {% endfor %}
+        </p>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+
+    <div class="container">
+      <div class="article-post" align="left">
+        <div class="col-lg-1"></div>
+
+        <div class="col-lg-10 large">
+        <img src={{page.feature_image}} class="feature_image"/>
+        </div>
+        <div class="col-lg-1"></div>
+
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="article-post" align="left">
+        <div class="col-lg-1"></div>
+
+        <div class="col-lg-10 large">
+          <div>&nbsp;</div>
+          {{content}}
+        </div>
+        <div class="col-lg-1"></div>
+
+      </div>
+    </div>
+  </section>
+
+
+  {% include footer.html %}
+  {% include js.html %}
+</body>
+
+</html>

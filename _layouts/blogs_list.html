@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+
+<body id="page-top" class="index">
+  {% include page_navigation.html %}
+
+  <section id="header">
+    <div class="container">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <h2 class="section-heading">{{page.title}}</h2>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+
+    <div class="container">
+      <div class="article-post" align="left">
+        <div class="col-lg-1"></div>
+
+        <div class="col-lg-10 large ">
+          {{content}}
+        </div>
+        <div class="col-lg-1"></div>
+
+      </div>
+    </div>
+  </section>
+
+
+  {% include footer.html %}
+  {% include js.html %}
+</body>
+
+</html>
