@@ -972,3 +972,13 @@ margin-top: 5px;
   font-size: medium;
   font-weight: bold;
 }
+
+.padding10{
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px){
+  .padding10-responsive{
+      margin-bottom: 15px;
+  }
+}
