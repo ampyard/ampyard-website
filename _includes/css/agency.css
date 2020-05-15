@@ -973,8 +973,10 @@ margin-top: 5px;
   font-weight: bold;
 }
 
-.padding10{
+.padding10maxwidth{
   padding: 10px;
+  max-width: 98%;
+  word-wrap: break-word;
 }
 
 @media screen and (max-width: 767px){
