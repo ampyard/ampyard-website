@@ -965,3 +965,10 @@ margin-top: 5px;
           display: block;
 
 }
+
+.voffset100 { margin-top: 100px; }
+
+.nav-item{
+  font-size: medium;
+  font-weight: bold;
+}
