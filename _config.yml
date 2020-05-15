@@ -18,6 +18,52 @@ people:
   position: Agile / DevOps Consultant
   url: https://www.linkedin.com/in/vivganes/
 
+# Testimonials
+testimonial:
+  -
+    givername: Nivarti Jayaram
+    company: Societe Generale Global Solutions Centre
+    linkedin: https://www.linkedin.com/in/nivartijayaram/
+    content: '"Vivek is one of the best coaches I have had the privilege of being associated with. He brings along a wealth of knowledge on Agile, DevOps and diverse technologies as well as technical coaching competence. He is an exemplary version of
+      an
+      Agile Coach and does not shy away from challenging the status quo.
+      With extensive experience coaching on best technical practices, ways of working both at team level & at scale. He is very adept at Cloud / DevOps practices, tools and
+      technologies and keeps himself abreast of latest in the industry. He is a constant learner and has the uncanny ability to think radically and is open to experimenting new domains/frameworks. His coaching skills, creative thinking,
+      transparency and openness makes him an absolute pleasure to work with.
+      His strengths in being able to challenge, pro-actively offering solutions, ideas and exceptional communication make him an asset to any organization. His contributions
+      have been of immense value in driving transformation roadmap at Societe Generale. I can recommend Vivek as a coach to any organization focused on transformation in order to achieve their strategic objectives. It’s a pleasure to have known
+      Vivek and cherish his company anytime and every time."'
+    pic: img/nivarti.jpg
+  -
+    givername: Gary Lawler
+    company: Senior Developer
+    linkedin: https://www.linkedin.com/in/gary-lawler-98252256
+    content: >
+      '"As technical lead in Greenfinch technology, I worked alongside Kamal for almost two years and feel confident in recommending him to hyour organisation.
+      Kamal was instrumental in delivering a new notifications framework for the Etech project to a high technical standard while under considerable time pressure. At this time he
+      demostrated leadership as well as technical skills by directing a small team to complete his design. The customer was delighted to have this functionality delivered on budget and to
+      a high degree of quality. In customer-facing rolers, Kamal has distinguished himself with several clients. He has a calm and professional demeanour with an ability to elicit
+      requirements from non-technical customers. He has gained the respect of both peers and management for an ability to articulate both challenges and associated solutions to ensure long-term
+      project success. Design and planning come naturally to Kamal. As he matured into his role at Greenfinch he succeeded in adapting to increasingly greater responsibilities in these realms,
+      ultimately being granted full care of the company's largest and most complex project. In his tenure at Greenfinch, Kamal has been a key figure in the success of the Etech project and
+      in ensuring that the team as a whole remain focused and happy."'
+    pic: ''
+  -
+    givername: Albert Sanuy Lostes
+    company: Software Engineer at New Relic, Inc.
+    linkedin: https://www.linkedin.com/in/asanuy/
+    content: >
+      '"It was a great experience to be working with Kamal for roughly two years. During that time, he proved his accountable attitude and great skills to solve difficult architectural problems, provide solutions and help the teammates.
+      His good mindset, experience and attitude to be up to date with technology makes him a great co-worker to be working with. "'
+    pic: ''
+  -
+    givername: Andrei Rjabokon
+    company: Full Stack Developer, RnD
+    linkedin: https://www.linkedin.com/in/andreirjabokon/
+    content: >
+      '"I highly recommend Kamal to any business or team there is. Working with Kamal as a teammate was both pleasure and highly efficient experience, where he showed levels of professionalism I have never seen in anyone else. Focused on delivery of excellent quality product, not afraid to take on tasks of every possible scale, eager to share knowledge and ideas, honest, very friendly and open minded personality -
+      all this can describe my experience with Kamal shortly, but nothing else as  pleasure, both professionally and socially. I can recommend Kamal as a highly valued asset to any team."'
+    pic: ''
 
 # Postal address (add as many lines as necessary)
 address:

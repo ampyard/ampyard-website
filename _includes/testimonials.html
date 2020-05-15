@@ -2,34 +2,37 @@
 <section id="testimonials">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Testimonials</h2>
-        <h3 class="section-subheading text-muted">What do people think about us?</h3>
-      </div>
-    </div>
+      <div class="home-title text-center">
+      <h2 class="section-heading">Testimonials</h2>
+      <h3 class="section-subheading text-muted">What do people think about us?</h3>
+  	</div>
     <div class="row" align="center">
       <div class="ui card" style="min-width:50%">
-        <div class="content" align="center">
-          <div><img src="img/nivarti.jpg" style="height:100px;border-radius: 50%; width:100px"></div>
-          <div>&nbsp;</div>
-          <div class="header">Nivarti Jayaram</div>
-          <div> Societe Generale Global Solutions Centre </div>
+  	<div class="flexslider">
+		<ul class="slides">
+	  		{% for item in site.testimonial %}
+	  		<li>
+          <div class="content" align="center">
+           <div class="header" style="padding-top:10px;">
+             <h4 style="display:inline-block; margin-right:10px; ">{{ item.givername }}
+             </h4>
+             <a href="{{item.linkedin}}" style="display:inline-block">
+               <i class="fa fa-linkedin"></i>
+             </a></div>
+           <h6 style="color: gray"> {{ item.company }} </h6>
+           <hr/>
+         </div>
+          <div class="content text-left padding10 padding10-responsive">
+          {{item.content}}
+          <div>
+            <div class="extra content">
         </div>
-        <div class="content text-left">
-          <p>Vivek is one of the best coaches I have had the privilege of being associated with. He brings along a wealth of knowledge on Agile, DevOps and diverse technologies as well as technical coaching competence. He is an exemplary version of
-            an
-            Agile Coach and does not shy away from challenging the status quo.</p>
-          <p>With extensive experience coaching on best technical practices, ways of working both at team level & at scale. He is very adept at Cloud / DevOps practices, tools and
-            technologies and keeps himself abreast of latest in the industry. He is a constant learner and has the uncanny ability to think radically and is open to experimenting new domains/frameworks. His coaching skills, creative thinking,
-            transparency and openness makes him an absolute pleasure to work with. </p>
-          <p>His strengths in being able to challenge, pro-actively offering solutions, ideas and exceptional communication make him an asset to any organization. His contributions
-            have been of immense value in driving transformation roadmap at Societe Generale. I can recommend Vivek as a coach to any organization focused on transformation in order to achieve their strategic objectives. It’s a pleasure to have known
-            Vivek and cherish his company anytime and every time.</p>
-        </div>
-        <div class="extra content">
-
-        </div>
-      </div>
+	 		</li>
+	  		{% endfor %}
+		</ul>
+	</div>
     </div>
+  </div>
+</div>
   </div>
 </section>
