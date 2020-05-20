@@ -919,6 +919,9 @@ margin-top: 5px;
     height: 70px;
 }
 
+.product-card{
+  margin-top: 20px;
+}
 .article-post {
     font-family: Merriweather;
     font-size: 2rem;
