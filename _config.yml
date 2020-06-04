@@ -18,6 +18,11 @@ people:
   position: Agile / DevOps Consultant
   url: https://www.linkedin.com/in/vivganes/
 
+- name: Hemant Warier
+  pic: 3
+  position: Enterprise Sales Manager
+  url: https://www.linkedin.com/in/hemantwarier/
+
 # Testimonials
 testimonial:
   -
@@ -61,7 +66,7 @@ testimonial:
     pic: ''
   -
     givername: Albert Sanuy Lostes
-    company: Software Engineer at New Relic, Inc.
+    company: New Relic, Inc.
     linkedin: https://www.linkedin.com/in/asanuy/
     content: >
       '"It was a great experience to be working with Kamal for roughly two years. During that time, he proved his accountable attitude and great skills to solve difficult architectural problems, provide solutions and help the teammates.
@@ -75,7 +80,14 @@ testimonial:
       '"I highly recommend Kamal to any business or team there is. Working with Kamal as a teammate was both pleasure and highly efficient experience, where he showed levels of professionalism I have never seen in anyone else. Focused on delivery of excellent quality product, not afraid to take on tasks of every possible scale, eager to share knowledge and ideas, honest, very friendly and open minded personality -
       all this can describe my experience with Kamal shortly, but nothing else as  pleasure, both professionally and socially. I can recommend Kamal as a highly valued asset to any team."'
     pic: ''
-
+  -
+    givername: Jennifer Conlon
+    company: Optum
+    linkedin: https://www.linkedin.com/in/jennifer-conlon/
+    content: >
+      '"I have worked with Kamal for over 4 years. From beginning to end he was someone I enjoyed working with for many reasons. Firstly technically he was always striving to better the products he was working on with passion. His teamwork was always to the forefront, constantly helping those around him and working to find solutions. His curiosity to improve and introduce improvements was constantly refreshing and
+       he was just a great presence to work with. I know going forward he will continue to enhance any projects he is involved in and is a great asset to any project he is involved with. Leading from the front with passion and knowledge always."'
+    pic: ''
 # Postal address (add as many lines as necessary)
 address:
   - line: Ampyard Private Limited, BHIVE Workspace, No.703, 22nd Main Road, HSR Layout, Sector 2
