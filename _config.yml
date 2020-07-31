@@ -9,19 +9,24 @@ description: "Ampyard - Agile | Technology | DevOps | Software"
 # Team names, titles and social links
 people:
 - name: Kamal Raj Sekar
-  pic: 1
+  pic: 1.jpg
   position: Lead Technology Consultant
   url: https://www.linkedin.com/in/kamalrajsekar/
 
 - name: Vivek Ganesan
-  pic: 2
+  pic: 2.jpg
   position: Agile / DevOps Consultant
   url: https://www.linkedin.com/in/vivganes/
 
 - name: Hemant Warier
-  pic: 3
+  pic: 3.jpg
   position: Enterprise Sales Manager
   url: https://www.linkedin.com/in/hemantwarier/
+
+- name: Akshay Sushir
+  pic: 4.png
+  position: Junior Software Engineer
+  url: https://www.linkedin.com/in/akshay-sushir-280324119/
 
 # Testimonials
 testimonial:
