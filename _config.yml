@@ -95,8 +95,8 @@ testimonial:
     pic: ''
 # Postal address (add as many lines as necessary)
 address:
-  - line: Ampyard Private Limited, BHIVE Workspace, No.703, 22nd Main Road, HSR Layout, Sector 2
-  - line: Bengaluru, Karnataka, 560102
+  - line: Ampyard Private Limited, Bhive, NO. 148, BBMP NO. 170/148, 
+  - line: 5TH Main Road Sector-6, HSR Layout, Bangalore, Karnataka - 560102
 
 # Build settings
 markdown: kramdown
