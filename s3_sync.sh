@@ -1,0 +1,1 @@
+aws s3 sync _site/ s3://www.ampyard.com --acl public-read
